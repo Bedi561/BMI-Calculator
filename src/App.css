@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #808080; /* Light gray background */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 90vw;
+    max-width: 500px;
+    padding: 24px;
+    border-radius: 12px; /* Rounded corners */
+    border: 2px solid black; /* Black outline */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+h1 {
+    background-color: #1b1096;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding: 20px 10px;
+    border-radius: 12px 12px 0 0; /* Rounded top corners */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.div-style {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+}
+
+
+button {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1b1096;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #3027b0;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #140c73;
+}
+
+input {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #1b1096;
+    box-shadow: 0px 0px 4px rgba(27, 16, 150, 0.3);
+}
